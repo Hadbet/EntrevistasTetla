@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Entrevistas Ausentismo</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="lib/css/nigol.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="lib/sweetalert2.css">
+
+    <!-- JavaScript -->
+    <script src="lib/sweetalert2.all.min.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        <span class="logo"><img class="logoAux" src="images/logo_blanco.png" alt=""/></span>
+        <h1>Entrevistas Ausentismo</h1>
+        <p>Recuerda que es importante mantener informado al trabajador<br/>
+            de todos los datos ingresados en este sistema.</p>
+    </header>
+
+
+    <!-- Main -->
+    <div id="main">
+        <section style="margin: 40px" class="main special seccion-transicion" id="seccion1">
+
+            <div class="row gtr-uniform">
+                <div class="col-12 col-12-xsmall">
+                    <img src="images/entrevista-min.gif" class="imagenAux">
+                </div>
+            </div>
+
+            <div class="spotlight" style="margin-bottom: 0px;">
+                <div class="content">
+                    <header class="major">
+                        <h2>Inicias Sesión.</h2>
+                    </header>
+                </div>
+            </div>
+
+            <form action="dao/daoLogin.php" method="post">
+            <div class="row gtr-uniform">
+                <div class="col-12 col-12-xsmall" style="text-align: -webkit-center;">
+                    <label style="text-align: center;">Nómina:</label>
+                    <input type="text" id="txtNomina" name="txtNomina" value="" placeholder="00012345"/>
+                </div>
+
+                <div class="col-12 col-12-xsmall"  style="text-align: -webkit-center;">
+                    <label style="text-align: center;">Contraseña:</label>
+                    <input type="password" id="txtPassword" name="txtPassword" value="" placeholder="00012345"/>
+                </div>
+
+                <div class="col-12">
+                    <ul class="actions" style="justify-content: center;">
+                        <li><input type="submit" value="Verificar" id="verificar" name="verificar" class="primary"/></li>
+                    </ul>
+                </div>
+            </div>
+            </form>
+        </section>
+        <br>
+        <!-- First Section -->
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <section>
+            <h2>Información</h2>
+            <dl class="alt">
+                <dt>Address</dt>
+                <dd>Av. De la Luz No. 24 Int: B 1 y 2 ACC III</dd>
+                <dd>Queretaro, Queretaro 76120 Mexico</dd>
+                <dt>Phone</dt>
+                <dd>(000) 000-0000 x 0000</dd>
+                <dt>Email</dt>
+                <dd><a href="#">information@untitled.tld</a></dd>
+            </dl>
+            <ul class="icons">
+                <li><a href="#" class="icon brands fa-linkedin alt"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+            </ul>
+        </section>
+        <p class="copyright">&copy; Grammer Automotive Puebla S.A de C.V. Design: Grammer.</p>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+.seccion-transicion {
+    transition: opacity 0.5s ease-in-out;
+}
+
+@media only screen and (min-width: 768px) {
+    /* Estilos específicos para pantallas grandes */
+    .imagenAux {
+        width: 50%;
+        margin-bottom: -90px !important;
+        margin-top: -200px;
+    }
+
+    .logoAux {
+        width: 20%;
+    }
+
+    .botonFlotante {
+        display: none;
+    }
+
+    .menuNavegacion {
+        display: none;
+    }
+
+    /* Agrega más estilos según sea necesario */
+}
+
+@media only screen and (max-width: 600px) {
+
+    .logoAux {
+        width: 50%;
+    }
+
+    .imagenAux {
+        margin-top: -25px;
+        width: 100%;
+    }
+
+    .botonFlotante {
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        height: 51px;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+        text-align: center; /* Centrar el contenido horizontalmente */
+        line-height: 0.3; /* Ajustar la altura de línea para centrar verticalmente */
+    }
+
+    .menuNavegacion {
+        display: none;
+        position: fixed;
+        top: 40px;
+        left: 10px;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .menuNavegacion a {
+        display: block;
+        color: white;
+        text-decoration: none !important;
+        margin-bottom: 10px;
+    }
+
+    .menuNavegacion a:hover {
+        text-decoration: none;
+    }
+}
